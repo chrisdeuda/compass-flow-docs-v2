@@ -1,0 +1,44 @@
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button--primary {
+  background: white;
+  color: #667eea;
+}
+
+.button--secondary {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.button--secondary:hover {
+  background: white;
+  color: #667eea;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "quiz-flow-docs",
+  "version": "1.0.0",
+  "description": "Quiz Flow Documentation and Changelog",
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdeuda/quiz-flow-docs.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "documentation",
+    "changelog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdeuda/quiz-flow-docs/issues"
+  },
+  "homepage": "https://github.com/chrisdeuda/quiz-flow-docs#readme",
+  "dependencies": {
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@mdx-js/react": "^3.1.1",
+    "clsx": "^2.1.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@docusaurus/tsconfig": "^3.9.2",
+    "@types/react": "^19.2.4",
+    "prism-react-renderer": "^2.4.1",
+    "typescript": "^5.7.3"
+  }
+}
