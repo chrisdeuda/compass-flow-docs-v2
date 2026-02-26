@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Quiz Flow Docs',
+  title: 'Compass Flow Docs',
   tagline: 'Documentation and Changelog',
-  url: 'https://quiz-flow-docs.netlify.app',
+  url: 'https://compass-flow-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -13,7 +13,7 @@ const config: Config = {
 
   // GitHub pages deployment config
   organizationName: 'chrisdeuda',
-  projectName: 'quiz-flow-docs',
+  projectName: 'compass-flow-docs',
 
   presets: [
     [
@@ -22,11 +22,11 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Change to your repo
-          editUrl: 'https://github.com/chrisdeuda/quiz-flow-docs/tree/main/',
+          editUrl: 'https://github.com/chrisdeuda/compass-flow-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/chrisdeuda/quiz-flow-docs/tree/main/',
+          editUrl: 'https://github.com/chrisdeuda/compass-flow-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -38,9 +38,9 @@ const config: Config = {
   themeConfig: {
     image: 'img/quiz-flow-social-card.jpg',
     navbar: {
-      title: 'Quiz Flow Docs',
+      title: 'Compass Flow Docs',
       logo: {
-        alt: 'Quiz Flow Logo',
+        alt: 'Compass Flow Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -52,7 +52,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Changelog', position: 'left'},
         {
-          href: 'https://github.com/chrisdeuda/quiz-flow-docs',
+          href: 'https://github.com/chrisdeuda/compass-flow-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -60,7 +60,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Quiz Flow. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Compass Flow. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

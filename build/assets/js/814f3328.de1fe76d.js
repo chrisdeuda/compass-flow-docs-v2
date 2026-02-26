@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquiz_flow_docs=self.webpackChunkquiz_flow_docs||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Changelog - February 2026","permalink":"/blog/changelog-2026-02","unlisted":false,"date":"2026-02-26T00:00:00.000Z"}]}')}}]);
