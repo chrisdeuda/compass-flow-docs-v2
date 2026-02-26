@@ -2,10 +2,12 @@
 slug: changelog-2026-02
 title: Changelog - February 2026
 date: 2026-02-26
-author: Quiz Flow Team
+author: Chris Devz
 ---
 
 # February 2026 Updates
+
+<!-- truncate -->
 
 ## What's New
 
