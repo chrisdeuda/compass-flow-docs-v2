@@ -14,6 +14,18 @@ author: Chris Devz
 ### Flipcard Component (CCF-29)
 Interactive flashcard component for learning and revision.
 
+<video controls width="100%">
+  <source src="/assets/changelog/section-2-3-improve-drag.mp4" type="video/mp4" />
+</video>
+
+Drag elements
+
+<video controls width="100%">
+  <source src="/assets/changelog/Section-2-3-movable-piesces.mp4" type="video/mp4" />
+</video>
+
+
+
 ### Drag Pieces (CCF-30)
 Drag-and-drop puzzle interface for categorizing items.
 
