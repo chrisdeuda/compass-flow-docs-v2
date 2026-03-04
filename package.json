@@ -4,7 +4,8 @@
   "description": "Compass Flow Documentation and Changelog",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start --host 0.0.0.0",
+    "dev": "npx docusaurus start --host 0.0.0.0",
+    "start": "npx serve -s build -l tcp://0.0.0.0:$PORT",
     "build": "docusaurus build",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
