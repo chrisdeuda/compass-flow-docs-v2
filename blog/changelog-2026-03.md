@@ -16,12 +16,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [1.1.0] - 2026-03-04
 
 ### Added
-- Results page UI flow with 9 components
-- CCF-44: Section 5 breathing animation
-- CCF-43: Parchment popup & drag pieces validation
+- **Results page UI flow** - 9 new components for the results screen
+- **CCF-44: Section 5 breathing animation** - Calming breath work exercise
+- **CCF-43: Parchment popup & drag pieces validation** - Better UX for validation
 
 ### Fixed
-- CCF-43: Drag pieces UI
+- **CCF-43: Drag pieces UI** - Resolved layout issues
 
 ## [1.0.0] - 2026-02-24
 
