@@ -11,6 +11,18 @@ author: Chris Devz
 
 ## What's New
 
+### Wizard Theme — Quiz Questions & Section Screens (PR #20)
+
+The full wizard/forest aesthetic is now applied across all quiz and section screens.
+
+- **ScenarioCard** (quiz questions) — forest background with dark overlay, diamond progress indicator showing section progress, styled answer buttons with custom cursor on hover
+- **SectionAnchor** (between sections) — forest background, GoldCompass decoration, "Section Complete" indicator, wizard-styled continue button
+- Progress bar removed from the section-questions view — progress is now integrated directly inside the card
+
+### Page Intro (PR #26)
+
+Added an introductory page to the start of the quiz flow, giving users context before they begin the assessment.
+
 ### Email Capture — Migrated to Supabase Edge Function (CCF-22)
 
 The email capture backend has been fully migrated from Express/Railway to a Supabase Edge Function. This removes the need for a separate backend server and consolidates everything into Supabase.
@@ -27,13 +39,6 @@ The email capture backend has been fully migrated from Express/Railway to a Supa
 **Frontend changes:**
 - `backendApiService` now calls `supabase.functions.invoke()` instead of the Express endpoint
 - Dead code removed (`supabaseEmailCaptureService.ts` deleted, `emailCaptureService.ts` deprecated)
-
----
-
-## Bug Fixes
-
-- Restored wizard theme across quiz questions and section components (Phase 3)
-- Applied gold compass decoration to `SectionAnchor` component
 
 ---
 
