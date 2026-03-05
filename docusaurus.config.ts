@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Compass Flow Docs',
   tagline: 'Documentation and Changelog',
-  url: 'https://compass-flow-docs.netlify.app',
+  url: process.env.SITE_URL || 'https://compass-flow-docs-production.up.railway.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
